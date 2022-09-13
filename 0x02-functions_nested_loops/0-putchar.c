@@ -5,6 +5,13 @@
  */
 int main(void)
 {
-	putchar("\n _putchar");
+	char *iretomiwa = "_putchar";
+
+	while (*iretomiwa)
+	{
+		_putchar(*iretomiwa);
+		iretomiwa++;
+	}
+	_putchar('\n');
 	return (0);
 }
