@@ -5,12 +5,12 @@
  */
 int main(void)
 {
-	char *iretomiwa = "_putchar";
+	char *main = "_putchar";
 
-	while (*iretomiwa)
+	while (*main)
 	{
-		_putchar(*iretomiwa);
-		iretomiwa++;
+		_putchar(*main);
+		main++;
 	}
 	_putchar('\n');
 	return (0);
