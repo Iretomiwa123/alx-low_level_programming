@@ -13,7 +13,7 @@ void i_equals_to_two(int i);
  *jack_bauer - prints every minute of the day of Jack Bauer
  * Return: void
  */
-void jack_bauer(void);
+void jack_bauer(void)
 {
 int i;
 	for (i = '0'; i <= '2'; i++)
