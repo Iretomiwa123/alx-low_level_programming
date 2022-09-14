@@ -5,9 +5,9 @@
  * @i: integer from jack_bauer function
  * Return: void
  */
-void i_equals_to_one_or_zero(int i);
+void i_equals_to_one_or_zero(int i)
 
-void i_equals_to_two(int i);
+void i_equals_to_two(int i)
 
 /**
  *jack_bauer - prints every minute of the day of Jack Bauer
