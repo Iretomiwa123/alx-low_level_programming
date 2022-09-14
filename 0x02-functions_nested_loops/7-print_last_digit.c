@@ -4,7 +4,7 @@
  * @n: it prints out the last digit of a num input
  * Return: valuer of 1
  */
-int print_last_digit(int n);
+int print_last_digit(int n)
 {
 	int i;
 
