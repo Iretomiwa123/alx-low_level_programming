@@ -2,9 +2,9 @@
 /**
  * print_to_98 - prints all natural numbers from n to 98
  * @n:integer input
- * Return: always 0
+ * Return: void
  */
-void print_to_98(int n)
+voide print_to_98(int n)
 {
 while (n != 98)
 {
@@ -15,5 +15,4 @@ else
 n++;
 }
 printf("98\n");
-return (0);
 }
