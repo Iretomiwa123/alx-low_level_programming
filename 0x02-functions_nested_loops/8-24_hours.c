@@ -1,57 +1,21 @@
 #include "main.h"
 /**
- * i_eguals_to_one_or_zero -Code for i equal to 1 or 0
- * i_equals_to_two for i equal to 1 or 0
- * @i: integer from jack_bauer function
- * Return: void
- */
-void i_equals_to_one_or_zero(int i)
-
-void i_equals_to_two(int i)
-
-/**
  *jack_bauer - prints every minute of the day of Jack Bauer
  * Return: void
  */
 void jack_bauer(void)
 {
-int i;
-	for (i = '0'; i <= '2'; i++)
+int min, hour;
+for (hour = 0; hour <= 23; hour++)
+{
+	for (min = 0; min <= 59; min++)
 	{
-		if (i == '1' || i == '0')
-		{
-			i_equals_to_one_or_zero(i)
-		}
-		else if (i == '2')
-		{
-			i_equals_to_two(i);
-		}
+		_putchar((hour / 10) + '0');
+		_putchar((hour % 10) + '0');
+		_putchar(':');
+		_putchar((min / 10) + '0');
+		_putchar((min % 10) + '0');
+		_putchar(10);
 	}
 }
-
-/**
- * i_equals_to_one_or_zero - code for i equal to two
- * @i: integer from jack_bauer function
- * Return: void
- */
-void i_equals_to_two(int i)
-{
-	int j, k, l;
-
-	for (j = '0'; j <= '3'; j++)
-
-	{
-		for (k = '0'; k <= '5'; k++)
-		{
-			for (l = '0'; l <= '9'; l++)
-			{
-			-putchar(i);
-			_putchar(j);
-			_putchar(':');
-			_putchar(k);
-			_putchar(l);
-			_putchar('\n');
-			}
-		}
-	}
 }
