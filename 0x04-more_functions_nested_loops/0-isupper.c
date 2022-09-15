@@ -7,10 +7,8 @@
 int _isupper(int c)
 {
 for (c = 'A'; c <= 'Z'; c++)
-	_putchar("c, %d\n")
 return (1);
 {
-	_putchar("c, %d\n")
 return (0);
 }
 }
