@@ -2,7 +2,7 @@
 /**
  * print_to_98 - prints all natural numbers from n to 98
  * @n:integer input
- * Return: return 0
+ * Return: always 0
  */
 void_print_to_98(int n)
 {
@@ -10,7 +10,7 @@ while (n != 98)
 {
 printf("%i,", n);
 if (n > 98)
-n--;		
+n--;
 else
 n++;
 }
