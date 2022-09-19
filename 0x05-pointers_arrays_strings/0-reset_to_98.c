@@ -9,7 +9,7 @@ int main(void)
 	int n;
 
 	n = 402;
-	_putchar("n = %d \n", n);
+	printf("n = %d\n", n);
 	reset_to_98(&n);
 	return (0);
 }
