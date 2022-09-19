@@ -1,12 +1,12 @@
 #include "main.h"
 /**
  * main - check the code
- * int: parameter
+ * int *n: pointer to an integer
  * Return: 0
  */
 int main(void)
 {
-	int *n;
+	int n;
 
 	n = 402;
 	_putchar("n=%d\n", n);
