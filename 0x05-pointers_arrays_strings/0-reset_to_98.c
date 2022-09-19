@@ -1,15 +1,11 @@
 #include "main.h"
 /**
- * main - check the code
- * int *n: pointer to an integer
+ * reset_to_98 - update value
+ * @n: pointer to an integer
  * Return: 0
  */
-int main(void)
+void reset_to_98(int *n)
 {
-int n;
-n = 402;
-_putchar("%d\n", n);
-reset_to_98(&n);
-_putchar("%d\n"
-return (0);
+	*n = 98;
 }
+
