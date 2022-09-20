@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * puts2 -prites every other character
+ * puts2 -prints every other character
  * @str: string
  * Return: nothing
  */
@@ -13,7 +13,7 @@ void puts2(char *str)
 	{
 		if (i % 2 == 0)
 			putchar(*(str + i));
-		i++
+		i++;
 	}
 	putchar(10);
 }
