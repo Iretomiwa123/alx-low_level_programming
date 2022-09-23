@@ -1,11 +1,10 @@
 #include "main.h"
-
 /**
  * _strcat -function that concatenates two strings
- * @src: string
+ * @src: assigned char variable
  * @dest: assigned char variable
- *Retur dest
- */
+ *Return: dest
+ **/
 char *_strcat(char *dest, char *src)
 {
 	int i, j;
@@ -13,12 +12,12 @@ char *_strcat(char *dest, char *src)
 	i = 0;
 	while (dest[i] != '\0')
 	{
-		++i;
+	++i;
 	}
 	for (j = 0; src[j] != '\0'; j++, i++)
 	{
-		dest[i] = src[j];
+	dest[i] = src[j];
 	}
-		dest[i] = '\0';
-		return (dest);
+	dest[i] = '\0';
+	return (dest);
 }
