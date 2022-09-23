@@ -3,8 +3,8 @@
 /**
  * _strcat -function that concatenates two strings
  * @src: string
- * @dest:  adds a terminating null byte
- *Return: always 0
+ * @dest: assigned char variable
+ *Retur dest
  */
 char *_strcat(char *dest, char *src)
 {
