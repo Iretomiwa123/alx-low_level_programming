@@ -2,6 +2,7 @@
 
 /**
  * _strspn - Gets the lenght of a prefix substring
+ *
  * @s: Initial segment of string
  * @accept: Prefix of string to be measured
  *
