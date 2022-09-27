@@ -5,6 +5,7 @@
  * @s: string
  * @to: string
  */
+
 void set_string(char **s, char *to)
 {
 	strcpy(*s, to);
