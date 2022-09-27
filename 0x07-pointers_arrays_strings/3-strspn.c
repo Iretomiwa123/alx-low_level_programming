@@ -29,7 +29,7 @@ unsigned int _strspn(char *s, char *accept)
 		if (found_match != 1)
 			break;
 
-		lent++;
+		len++;
 	}
 	return (len);
 }
