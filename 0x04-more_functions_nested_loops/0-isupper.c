@@ -1,14 +1,14 @@
 #include "maih.h"
 
 /**
- * _isupper -  function that checks for uppercase character.
+ * _isupper - checks for uppercase character.
  *
  * @c: value to be checked
  *
  * Return: 1 if arg is uppercase,
- *
  * 0 if arg it is not.
  */
+
 int _isupper(int c)
 {
 	if (c >= 65 && c <= 90)
