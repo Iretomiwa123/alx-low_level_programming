@@ -12,6 +12,7 @@ void print_string(char *str);
  *
  *  Return: 0, Success
  */
+
 int main(int argc __attribute__((unused)), char *argv[])
 {
 	print_string(argv[0]);
@@ -27,6 +28,7 @@ int main(int argc __attribute__((unused)), char *argv[])
  *
  * Return: void
  */
+
 void print_string(char *str)
 {
 	int i = 0;
