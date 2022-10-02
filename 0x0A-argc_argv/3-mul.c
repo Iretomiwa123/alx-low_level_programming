@@ -58,6 +58,7 @@ int _atoi(char *s)
 
 		s++;
 	}
+
 	return (result * sign_cache);
 }
 
@@ -70,6 +71,7 @@ int _atoi(char *s)
  *
  * Return: Result of num1 * num2
  */
+
 int multiply_two_nums(int num1, int num2)
 {
 	return (num1 * num2);
