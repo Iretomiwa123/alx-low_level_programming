@@ -27,7 +27,7 @@ int main(int argc, char *argv[])
 		_putchar('E');
 		_putchar('r');
 		_putchar('r');
-		_putchar('0');
+		_putchar('o');
 		_putchar('r');
 		_putchar('\n');
 		return (0);
