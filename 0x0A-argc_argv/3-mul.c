@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 int _atoi(char *s);
 int multiply_two_nums(int num1, int num2);
