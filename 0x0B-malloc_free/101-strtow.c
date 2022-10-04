@@ -22,7 +22,7 @@ int word_len(char *str)
 		index++;
 	}
 
-	return (llen);
+	return (len);
 
 }
 
