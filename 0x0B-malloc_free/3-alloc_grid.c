@@ -23,8 +23,6 @@ int **alloc_grid(int width, int height)
 	if (ptr_arr == NULL)
 		return (NULL);
 
-
-
 	for (hgt_indx = 0; hgt_indx < height; hgt_indx++)
 	{
 		ptr_arr[hgt_indx] = malloc(sizeof(int) * width);
@@ -32,7 +30,7 @@ int **alloc_grid(int width, int height)
 		if (ptr_arr[hgt_indx] == NULL)
 		{
 			for (; hgt_indx >= 0; hgt_indx--)
-				free(ptr_arr[hgt_indx--)
+				free(ptr_arr[hgt_indx--]);
 
 			free(ptr_arr);
 
@@ -41,8 +39,8 @@ int **alloc_grid(int width, int height)
 	}
 	for (hgt_indx = 0; hgt_indx < height; hgt_indx++)
 	{
-		for (wid_indx = 0; wid_indx < width; wid_indx++)
-			ptr_arr[hgt_indx][wid_indx] = 0;
+	for (wid_indx = 0; wid_indx < width; wid_indx++)
+	ptr_arr[hgt_indx][wid_indx] = 0;
 	}
 
 	return (ptr _arr);
