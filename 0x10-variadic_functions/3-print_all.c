@@ -13,6 +13,7 @@ void print_string(va_list args)
 	string = va_arg(args, char *);
 	if (string == NULL)
 		string = "(nil)";
+	printf("%s",  string);
 }
 
 /**
@@ -29,6 +30,15 @@ void print_char(va_list args)
  * @args: Where the int is
  */
 void print_int(va_list args)
+{
+	printf("%d", va_arg(args, int));
+}
+
+/**
+ *  print_float - Print the float
+ *  @args: Where the float is
+ */
+void print_float(va_list args)
 {
 	printf("%f", va_arg(args, double));
 }
@@ -59,8 +69,8 @@ void print_all(const char * const format, ...)
 		{
 			if (*print_form[j].c == format[i])
 			{
-				printf("%s", sep);
-				print_form[j].f(args, sep);
+			printf("%s", sep);
+			print_form[j].f(args, sep);
 				sep = ", ";
 			}
 			j++;
@@ -71,5 +81,4 @@ void print_all(const char * const format, ...)
 	}
 	printf("\n");
 	va_end(args);
-
 }
