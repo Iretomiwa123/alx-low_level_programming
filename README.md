@@ -1,1 +1,1 @@
-0x0F-function_pointers
+0x14-bit_manipulation
